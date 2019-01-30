@@ -38,10 +38,16 @@ You can do this now
 npm install ngxx-validate --save
 ```
 
-### Don't forget this, npm registry default value
+### Don't forget this, npm registry default value:
 
 ```
 npm set registry http://registry.npmjs.org
 ```
 
 ## Conguralations, your private package is ready.
+
+### Helpful Documents
+
+https://angularfirebase.com/lessons/build-an-angular-library-with-ngpackagr/
+<br />
+https://www.sitepoint.com/private-npm-packages-verdaccio/
