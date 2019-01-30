@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngxx-validate": [
+        "dist/ngxx-validate"
+      ],
+      "ngxx-validate/*": [
+        "dist/ngxx-validate/*"
+      ]
+    }
   }
 }

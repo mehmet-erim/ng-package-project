@@ -1,27 +1,47 @@
 # NgPackageProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
+## Getting started
 
-## Development server
+### Steps
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```
+npm install -g verdaccio
+```
 
-## Code scaffolding
+```
+verdaccio
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+npm set registry http://localhost:4873
+npm adduser --registry http://localhost:4873
+```
 
-## Build
+```
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```
+npm run build:lib
+cd projects/ngxx-validate/dist
+```
 
-## Running unit tests
+```
+npm publish --registry http://localhost:4873
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Your package published
 
-## Running end-to-end tests
+You can do this now
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+npm install ngxx-validate --save
+```
 
-## Further help
+### Don't forget this, npm registry default value
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+npm set registry http://registry.npmjs.org
+```
+
+## Conguralations, your private package is ready.
