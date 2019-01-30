@@ -51,3 +51,7 @@ npm set registry http://registry.npmjs.org
 https://angularfirebase.com/lessons/build-an-angular-library-with-ngpackagr/
 <br />
 https://www.sitepoint.com/private-npm-packages-verdaccio/
+<br />
+https://github.com/ng-packagr/ng-packagr#how-to
+<br />
+https://verdaccio.org/
